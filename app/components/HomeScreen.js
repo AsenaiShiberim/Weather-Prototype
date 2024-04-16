@@ -26,9 +26,14 @@ export default function HomeScreen() {
             <Link href="components">
               Emissions Data
             </Link>
+
+            <Link href="../components/AQ">
+              AQHI Data
+            </Link>
           </li>
         </ul>
       </nav>
     </div>
   );
 }
+//npm install react-chartjs-2 chart.js//
