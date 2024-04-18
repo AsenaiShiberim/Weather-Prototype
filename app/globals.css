@@ -13,6 +13,7 @@ body{
     font-size: 1.5em;
     font-weight: bold;
 
+
 }
     
 /* HomeScreen.css */
@@ -21,20 +22,29 @@ body{
   position: absolute;
   top: 20px;
   right: 20px;
+  
+
 }
 
 .navbar ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: 10;
+  padding: 10;
+  
 }
 
 .navbar ul li {
   display: inline;
-  margin-right: 20px;
+  margin-right: 24px;
+  float: left;
+  
+
 }
 
 .navbar ul li a {
   color: white;
   text-decoration: none;
+  font-size: 1.2em;
+  justify-content: space-between;
+  padding: 10px;
 }

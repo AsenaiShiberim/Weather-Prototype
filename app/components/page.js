@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import co2Data from './owid-co2-data.json'; // Import your JSON data
 import { Result } from 'postcss';
 
+
 export default function Co2() {
 
 const backgroundImage = "url('https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')";
@@ -94,7 +95,7 @@ const backgroundImageStyle = {
   }, [countryInput, yearInput]);
 
   return (
-    <div style={backgroundImageStyle}>
+    <div style={backgroundImageStyle}  >
       <div className="bg-gray-200 min-h-screen flex flex-col justify-center items-center">
         <h1 className="text-3xl font-bold mb-6">CO2 Emissions Data</h1>
         {/* Input fields for country and year */}
