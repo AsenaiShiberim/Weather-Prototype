@@ -1,5 +1,5 @@
 
-import Link from 'next/link'; // Import the Link component
+import Link from 'next/link'; 
 
 
 export default function HomeScreen() {
@@ -29,8 +29,8 @@ export default function HomeScreen() {
               Emissions Data
             </Link>
 
-            <Link href="../AQHI">
-              Air Quality
+            <Link href="/AQHI">
+              CO2 Graph
             </Link>
           </li>
         </ul>
