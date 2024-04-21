@@ -67,7 +67,7 @@ export default function Co2() {
   return (
     <div>
       <h1>CO2 Emissions Data</h1>
-      {/* Input fields for country and year */}
+
       <label>
         Country:
         <input type="text" value={countryInput} onChange={handleCountryChange} />
@@ -76,10 +76,10 @@ export default function Co2() {
         Year:
         <input type="number" value={yearInput} onChange={handleYearChange} />
       </label>
-      {/* Save Search button */}
+      
       <button onClick={saveSearch}>Save Search</button>
 
-      {/* Display the filtered data */}
+     
       {filteredData.length > 0 ? (
   <div>
     <h2>{countryInput}</h2>
@@ -99,7 +99,7 @@ export default function Co2() {
 )}
 
 
-      {/* Display saved searches */}
+ 
       <div>
         <h2>Saved Searches</h2>
         <ul>
@@ -109,7 +109,6 @@ export default function Co2() {
               <strong>Year:</strong> {search.year},&nbsp;
              
 
-              {/* Display other information about the saved search */}
             </li>
           ))}
         </ul>
